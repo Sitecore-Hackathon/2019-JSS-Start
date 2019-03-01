@@ -34,5 +34,5 @@ All teams are required to submit the following as part of their entry submission
 - Create a 2 – 10 minutes video explaining the module’s functionality (A link to youtube video)
 
   - What problem was solved
-  - How did you solve it
+  - How did you solve it 
   - What is the end result
