@@ -30,7 +30,7 @@ placeholders:
           <p>Thanks for checking our PatientCore services. It's built with joint efforts by -</p><br/>
           <div style="width:45%; margin: 10px; display: inline-block; top:0;">
           <h3>Yogesh Patel</h3>
-          <img src="/-/jssmedia/patient-core/data/media/img/Yogi.jpg?mh=200&mw=200&ar=true" />
+          <img src="/-/jssmedia/patient-core/data/media/img/Yogi.jpg?mh=200&mw=200&ar=true" style="max-width:200px;" />
           <div>
             <a href="https://www.linkedin.com/in/yspatel" target="_blank">
               LinkedIn
@@ -43,7 +43,7 @@ placeholders:
 
           <div style="width:45%; margin: 10px; display: inline-block; top:0;">
           <h3>Muhammad Kalthoum</h3>
-          <img src="/-/jssmedia/patient-core/data/media/img/Moe.png?mh=200&mw=200&ar=true" />
+          <img src="/-/jssmedia/patient-core/data/media/img/Moe.png?mh=200&mw=200&ar=true" style="max-width:200px;" />
           <div>
             <a href="https://www.linkedin.com/in/moekall" target="_blank">LinkedIn
             </a>
