@@ -21,6 +21,6 @@ export default function(manifest) {
         register it here, or components added to that placeholder will not be returned by Sitecore:
         placeholders: ['exposed-placeholder-name']
         */
-        placeholders: ['hero']
+        placeholders: ['page-hero'],
   });
 }
