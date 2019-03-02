@@ -44,7 +44,7 @@ const DoctorListing = (props) => {
                 {/* Looping through all services the doctor is tagged with */}
                 {child.services && child.services.targetItems && 
                   child.services.targetItems.map((service, index) => (
-                    <span class="tag-wrapper">{service.name}</span>
+                    <span class="tag-wrapper-2">{service.name}</span>
                 ))}
               </div>
             ))}

@@ -118,6 +118,12 @@ a[target='_blank']:after {
     padding: 15px;
     display: inline-block;
 }
+.tag-wrapper-2{
+  background-color: #f1f1f1;
+  margin: 7px 7px 7px 0;
+  padding: 7px;
+  display: inline-block;
+}
 
 .tag-wrapper:hover {
         background-color: lightslategray;
