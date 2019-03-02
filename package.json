@@ -1,16 +1,16 @@
 {
-  "name": "patient.core",
+  "name": "patient-core",
   "description": "Application utilizing Sitecore JavaScript Services and React (create-react-app).",
   "version": "11.0.2",
   "private": true,
   "config": {
-    "appName": "patient.core",
+    "appName": "patient-core",
     "rootPlaceholders": [
       "jss-main"
     ],
-    "sitecoreDistPath": "/dist/patient.core",
+    "sitecoreDistPath": "/dist/patient-core",
     "sitecoreConfigPath": "/App_Config/Include/zzz",
-    "graphQLEndpointPath": "/api/patient.core",
+    "graphQLEndpointPath": "/api/patient-core",
     "language": "en"
   },
   "engines": {
