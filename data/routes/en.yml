@@ -69,5 +69,10 @@ placeholders:
               <li>Delete <code>/data/dictionary/*.yml</code></li>
             </ol>
           </div>
-
-
+  - componentName: Notification
+    fields:
+      heading: Looking for doctor appointment?
+      content: |
+          You visited doctor profiles but could not make an appointment. Do you need any help with making appoinment?
+      doctorLocation:
+        - id: doctors

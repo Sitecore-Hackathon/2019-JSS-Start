@@ -8,3 +8,13 @@ a[target='_blank']:after {
   are set to edit mode.
 */
 .scChromeData, .scpm { display: none !important; }
+.notification {
+  width:400px;
+  background-color:lightgrey;
+  position: absolute;
+  bottom:0;
+  right:0;
+  border-style: solid;
+  border-width: 1px;
+  border-color:white;
+}
