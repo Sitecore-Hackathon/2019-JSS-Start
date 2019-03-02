@@ -131,3 +131,8 @@ a[target='_blank']:after {
 .doctor-content {
     margin-top: 20px;
 }
+
+.doctor-content button a {
+    text-decoration: none;
+    color: white;
+}
