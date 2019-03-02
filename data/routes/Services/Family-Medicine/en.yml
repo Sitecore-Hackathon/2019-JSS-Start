@@ -11,7 +11,7 @@
 # Setting an ID is optional, but it will allow referring to this item in internal links
 # the ID can be a app-wide-unique string, or a GUID value.
 id: family-medicine
-
+template: Service
 # Route-level fields are appropriate for page level data like <title> contents
 # Define route level fields in /sitecore/definitions/routes.sitecore
 fields:

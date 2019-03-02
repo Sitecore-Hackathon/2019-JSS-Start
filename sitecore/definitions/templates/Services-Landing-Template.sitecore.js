@@ -8,7 +8,7 @@ import { CommonFieldTypes, Manifest } from '@sitecore-jss/sitecore-jss-manifest'
 export default function(manifest) {
   manifest.addTemplate({
     name: 'Services-Landing',
-    inherits: ["BasePage"],
+    inherits: ["App Route"],
     insertOptions:["Service"]
   });
 }

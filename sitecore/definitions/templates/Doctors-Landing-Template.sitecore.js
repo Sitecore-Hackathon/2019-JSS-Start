@@ -8,7 +8,7 @@ import { CommonFieldTypes, Manifest, SitecoreIcon } from '@sitecore-jss/sitecore
 export default function(manifest) {
   manifest.addTemplate({
     name: 'Doctors-Landing',
-    inherits: ["BasePage"],
+    inherits: ["App Route"],
     insertOptions:["Doctor"],
     icon: SitecoreIcon.Hospital
   });

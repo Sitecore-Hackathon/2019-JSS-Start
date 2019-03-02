@@ -8,7 +8,7 @@ import { CommonFieldTypes, Manifest, SitecoreIcon } from '@sitecore-jss/sitecore
 export default function(manifest) {
   manifest.addTemplate({
     name: 'Service',
-    inherits: ["BasePage"],
+    inherits: ["App Route"],
     icon: SitecoreIcon.Eye
   });
 }
