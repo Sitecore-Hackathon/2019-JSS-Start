@@ -29,21 +29,25 @@ placeholders:
       content: |
           <p>Thanks for checking our PatientCore services. It's built with joint efforts by -</p>
 
-          <div style="width:45%; float:left; text-align:center;">
-            <a href="https://twitter.com/patelyogesh_in" target="_blank">
-              Yogesh Patel
+          <div style="width:45%; margin: 10px; display: inline-block;">
+          <h3>Yogesh Patel</h3>
+          <img style="width: 50%; display: block;" src="https://pbs.twimg.com/profile_images/744013458677596160/ONACe03f_400x400.jpg" />
+          <div>
+            <a href="https://www.linkedin.com/in/yspatel" target="_blank">
+              LinkedIn
             </a>
-            <a href="https://twitter.com/patelyogesh_in" target="_blank">
-              <img src="/-/jssmedia/patient-core/data/media/img/Yogi.jpg?mh=100&mw=200&ar=true" />
+                        <a href="https://twitter.com/patelyogesh_in" target="_blank">
+              Twiter
             </a>
+            </div>
           </div>
 
-          <div style="width:45%; float:left; text-align:center;">
-            <a href="https://twitter.com/@Moe_kal" target="_blank">
-              Muhammad Kalthoum
+            <div style="width:45%; margin: 10px;display: inline-block;">
+            <h3>Muhammad Kalthoum</h3>
+             <img style="width: 50%; display: block;" src="https://pbs.twimg.com/profile_images/1080846431680892928/couy8K73_400x400.jpg" />
+            <a href="https://www.linkedin.com/in/moekall" target="_blank">LinkedIn
             </a>
-            <a href="https://twitter.com/@Moe_kal" target="_blank">
-              <img src="/-/jssmedia/patient-core/data/media/img/Moe.png?mh=100&mw=200&ar=true" />
+            <a href="https://twitter.com/@Moe_kal" target="_blank">Twitter
             </a>
           </div>
 

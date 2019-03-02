@@ -28,7 +28,7 @@ a[target='_blank']:after {
 
 .hero-content {
     background: rgba(205,206,255,0.1);
-    padding: 20px 0;
+    padding: 20px;
 }
 
 .column {
