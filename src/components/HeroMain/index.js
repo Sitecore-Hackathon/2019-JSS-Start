@@ -7,8 +7,7 @@ const HeroMain = ({ fields }) => (
         <Text tag="h2" className="display-4" field={fields.title} />
             <Text tag="h5" className="display-5" field={fields.subtitle} /> 
         </div>
-        <Image
-            field={fields.hero}
+        <img src={fields.hero.value.src}
              sizes="(min-width: 960px)"
              className="img-fluid"
             />

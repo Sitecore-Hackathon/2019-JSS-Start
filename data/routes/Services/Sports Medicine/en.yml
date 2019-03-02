@@ -31,4 +31,13 @@ placeholders:
 
           <p>About sports medicine specialists</p>
           Sports medicine doctors have special training to restore function to injured patients so they can get moving again as soon as possible. 
-          
+  - componentName: HeroMain
+    fields:
+      title: Sports Medicine Services
+      subtitle: Home to the best sports medicine in the world.
+      hero:
+        src: /data/media/img/services/sports.jpg
+        alt: Welcome patient hero
+      link:
+        href: /services/sports medicine
+        text: Learn More

@@ -27,5 +27,5 @@ placeholders:
       # as long as the same indent is preserved at the beginning of each line, no escaping
       # is required at all in the value, making it easy to read
       content: |
-          Below is the list of doctors. Select a doctor and make an appointment<br/>
+          Doctors are NOT listed in disconected mode... <br/>
   - componentName: Doctor-Listing

@@ -29,5 +29,13 @@ placeholders:
       content: |
          Considering taking medication to treat pain? Below is a list of common medications used to treat or reduce the symptoms of pain. 
           Follow the links to read common uses, side effects, dosage details and read user reviews for the drugs listed below.
-
-          
+  - componentName: HeroMain
+    fields:
+      title: Pain Medicine Services
+      subtitle: Home to the best pain medicine in the world.
+      hero:
+        src: /data/media/img/services/pain.jpg
+        alt: Welcome patient hero
+      link:
+        href: /services/pain medicine
+        text: Learn More

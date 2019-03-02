@@ -37,7 +37,7 @@ let Navigation = ({ t, i18n }) => (
       <NavLink to="/doctors" className="p-2 text-dark">
         {t('Doctors')}
       </NavLink>
-      <NavLink to="/patient-core" className="p-2 text-dark">
+      <NavLink to="/patientcore" className="p-2 text-dark">
         {t('About PatientCore')}
       </NavLink>
     </nav>
