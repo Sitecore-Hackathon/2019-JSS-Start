@@ -65,27 +65,30 @@ Here we will see installation of this application on Sitecore 9.1 Initial Versio
 ![alt text](https://github.com/Sitecore-Hackathon/2019-JSS-Start/blob/master/screenshots/homepage.png "Homepage")
 
 
-* **Services Landing** - Shows page hero, list of all services. We are using GraphQL to list down all services
+* **Services Landing** - Shows page hero, list of all services. We are using GraphQL to list down all services.
+
 ![alt text](https://github.com/Sitecore-Hackathon/2019-JSS-Start/blob/master/screenshots/services.png "Services Landing page")
 
-* Service Page - Shows service page and its content.
+* **Service Page** - Shows service page and its content.
+
 ![alt text](https://github.com/Sitecore-Hackathon/2019-JSS-Start/blob/master/screenshots/service.png "Service page")
 
 
-* Find a Foctor - Shows all doctors. We list all doctors using GraphQL.
+* **Find a Foctor** - Shows all doctors. We list all doctors using GraphQL.
+
 ![alt text](https://github.com/Sitecore-Hackathon/2019-JSS-Start/blob/master/screenshots/findadoctor.png "Find a Doctor")
 
 
-* Doctor Page - Shows Doctor details. Each doctor provides one or more services(categories) are listed here. Patients can also  make an appointment from here. 
+* **Doctor Page** - Shows Doctor details. Each doctor provides one or more services(categories) are listed here. Patients can also  make an appointment from here. 
 One possible use case of the doctor's services is - When system finds user's persona as "Transplant Patient", then while finding a doctor, we can show recommended doctors, who provide Transplant services.
 
 ![alt text](https://github.com/Sitecore-Hackathon/2019-JSS-Start/blob/master/screenshots/doctor.png "Doctor page")
 
-* Make appointment Page - Confirmation of doctor's appointment
+* **Make appointment Page** - Confirmation of doctor's appointment
 ![alt text](https://github.com/Sitecore-Hackathon/2019-JSS-Start/blob/master/screenshots/appointment.png "Make an Appointment")
 
-* Homepage - Notification to remind making an appointment. When a user visits doctor's profiles, but forgets making an appointment. Then when he comes back to the homepage, we will show a notification like this to remind user.
+* **Homepage** - Notification to remind making an appointment. When a user visits doctor's profiles, but forgets making an appointment. Then when he comes back to the homepage, we will show a notification like this to remind user.
 ![alt text](https://github.com/Sitecore-Hackathon/2019-JSS-Start/blob/master/screenshots/notification.png "Notification for appointment")
 
-* Homepage - Personalized page hero based on user persona or goals.
+* **Homepage** - Personalized page hero based on user persona or goals.
 ![alt text](https://github.com/Sitecore-Hackathon/2019-JSS-Start/blob/master/screenshots/personalized-hero.png "Personalized page hero")
