@@ -21,9 +21,9 @@ const DoctorListing = (props) => {
                 <Image
                     field={child.headshot}
                     editable={true}
-                    imageParams={{ mh: 200, mw:192, ar:true }}
+                    imageParams={{ mh: 200, mw:200, ar:true }}
                     height="200"
-                    width="192"
+                    width="200"
                     className="headshot"
                   />
                 </a>

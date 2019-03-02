@@ -3,29 +3,34 @@ import { Text, Image, RichText } from '@sitecore-jss/sitecore-jss-react';
 import { Placeholder, withSitecoreContext } from '@sitecore-jss/sitecore-jss-react';
 
 
-const DoctorDetails = (props) => {
+const DoctorDetails = ({ sitecoreContext, rendering, route }) => {
   return (
     <div>
-    <Text tag="h2" className="display-4" field={props.fields.pageTitle} />
+    <Text tag="h2" className="display-4" field={sitecoreContext.route.fields.pageTitle} />
     
         <Image
-              field={props.fields.headshot}
+              field={sitecoreContext.route.fields.headshot}
               editable={true}
-              imageParams={{ mh: 200, mw:192, ar:true }}
+              imageParams={{ mh: 200, mw:200, ar:true }}
               height="200"
-              width="192"
+              width="200"
               className="headshot" />
 
-        {props.fields.services && (
-          props.fields.services.map((service, index) => (
+        {sitecoreContext.route.fields.services && (
+          sitecoreContext.route.fields.services.map((service, index) => (
             <a href="/" class="service-tag">{service.fields.pageTitle.value}</a>
           ))
         )}
 
-        <Text field={props.fields.location} tag="h1" />
+        <Text field={sitecoreContext.route.fields.location} tag="h1" />
     
-    <RichText className="contentDescription" field={props.fields.content} />
+        <RichText className="contentDescription" field={sitecoreContext.route.fields.content} />
+
+        <button onclick="activateLasers()">
+          Make an appointment
+        </button>
+
     </div>
 )};
 
-export default DoctorDetails;
+export default withSitecoreContext()(DoctorDetails);
