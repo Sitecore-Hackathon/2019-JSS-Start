@@ -12,12 +12,13 @@ a[target='_blank']:after {
 .notification {
   width:400px;
   background-color:lightgrey;
-  position: absolute;
+  position: fixed;
   bottom:0;
   right:0;
   border-style: solid;
   border-width: 1px;
   border-color:white;
+  padding: 10px;
 }
 
 .hero {
