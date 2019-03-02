@@ -15,12 +15,15 @@ const DoctorDetails = ({ sitecoreContext, rendering, route }) => {
       {/* {sitecoreContext.route.fields.headshot && sitecoreContext.route.fields.headshot.value && (
         <Image field={sitecoreContext.route.fields.headshot} />
       )} */}
-
+      <div className="service-tag">
       {sitecoreContext.route.fields.services && (
         sitecoreContext.route.fields.services.map((service, index) => (
           <a href="/" class="service-tag">{service.fields.pageTitle.value}</a>
         ))
-      )}
+                )}
+       </div>
+
+       <div className="doctor-content">
       {sitecoreContext.route.fields.location && (
         <Text field={sitecoreContext.route.fields.location} tag="h3" />
       )}
@@ -31,7 +34,7 @@ const DoctorDetails = ({ sitecoreContext, rendering, route }) => {
       <button onclick="activateLasers()">
         <a href="/make-appointment">Make an appointment</a>
       </button>
-  
+    </div>
   </div>
 )};
 
