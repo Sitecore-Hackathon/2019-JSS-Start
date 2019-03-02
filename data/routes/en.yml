@@ -32,43 +32,32 @@ placeholders:
         text: Learn More
   - componentName: ContentBlock
     fields:
-      heading: Welcome to Sitecore JSS
+      heading: PatientCore is the Future
       # to author content in YAML, use _multi-line values_ (prefixed with | + endline)
       # as long as the same indent is preserved at the beginning of each line, no escaping
       # is required at all in the value, making it easy to read
       content: |
-          <p>Thanks for using JSS. Here are some resources to get you started:</p>
+          <p>Few relations are more personal than those between patients and their doctors. 
+          Still, a lot of medical websites tend to fail to offer content personalization to strengthen
+          and extend these bonds. PatientCore is here to solve that problem.</p>
 
-          <h3><a href="https://jss.sitecore.net" rel="noopener noreferrer">Documentation</a></h3>
-          <p>The official JSS documentation can help you with any JSS task from getting started to advanced techniques.</p>
+          <h3>What is PatientCore</h3>
+          <p>PatientCore is a sitecore module that uses personalization tools to deliver meaningful information to patients such as recently visited section with pages and services from visitors previous entries. Service based on patient search. Doctors list that are related to what the patient is searching for. And more!</p>
 
-          <h3><a href="/styleguide">Styleguide</a></h3>
-          <p>The JSS styleguide is a living example of how to use JSS, hosted right in this app.
-          It demonstrates most of the common patterns that JSS implementations may need to use,
-          as well as useful architectural patterns.</p>
-
-          <h3><a href="/graphql">GraphQL</a></h3>
-          <p>JSS features integration with the Sitecore GraphQL API to enable fetching non-route data from Sitecore - or from other internal backends as an API aggregator or proxy.
-          This route is a living example of how to use an integrate with GraphQL data in a JSS app.</p>
-
-          <div class="alert alert-dark">
-            <h4>This app is a boilerplate</h4>
-            <p>The JSS samples are a boilerplate, not a library. That means that any code in this app is meant for you to own and customize to your own requirements.</p>
-            <p>Want to get change the lint settings? Do it. Want to read manifest data from a MongoDB database? Go for it. This app is yours.</p>
-          </div>
-
-          <div class="alert alert-dark">
-            <h4>How to start with an empty app</h4>
-            <p>To remove all of the default sample content (the Styleguide and GraphQL routes) and start out with an empty JSS app:</p>
-            <ol>
-              <li>Delete <code>/src/components/Styleguide*</code> and <code>/src/components/GraphQL*</code></li>
-              <li>Delete <code>/sitecore/definitions/components/Styleguide*</code>, <code>/sitecore/definitions/templates/Styleguide*</code>, and <code>/sitecore/definitions/components/GraphQL*</code></li>
-              <li>Delete <code>/data/component-content/Styleguide</code></li>
-              <li>Delete <code>/data/content/Styleguide</code></li>
-              <li>Delete <code>/data/routes/styleguide</code> and <code>/data/routes/graphql</code></li>
-              <li>Delete <code>/data/dictionary/*.yml</code></li>
-            </ol>
-          </div>
+          <h3>Target Audience</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+          Nunc eget rutrum erat. Vestibulum rutrum volutpat ante, vitae 
+          viverra sapien convallis non. Cras finibus nulla eu feugiat tempor. 
+          Fusce posuere, eros a vulputate rhoncus, lacus nisi accumsan velit, 
+          at venenatis tellus quam et ante. Aliquam erat volutpat. 
+          Quisque dapibus ipsum nec nisi posuere vestibulum. 
+          Donec id euismod mauris, vitae ullamcorper dolor. 
+          Sed et pretium neque. Maecenas a diam tristique, elementum quam quis, mollis urna. 
+          Duis pulvinar tellus non tincidunt dapibus. Vestibulum enim tortor, laoreet non velit in, 
+          consequat pulvinar purus. Nunc eros mi, placerat sit amet tincidunt sit amet, 
+          pulvinar bibendum metus. Vivamus at ex molestie, tristique augue sit amet, dapibus felis. 
+          In aliquet ligula at iaculis varius. 
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
   - componentName: Notification
     fields:
       heading: Looking for doctor appointment?

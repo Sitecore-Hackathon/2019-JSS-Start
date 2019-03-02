@@ -30,6 +30,12 @@ a[target='_blank']:after {
 .hero-content {
     background: rgba(205,206,255,0.1);
 }
+
+.hero-content {
+    background: rgba(205,206,255,0.1);
+    padding: 20px 0;
+}
+
 .column {
     float: left;
     width: 32%;
