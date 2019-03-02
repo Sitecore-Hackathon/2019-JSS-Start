@@ -10,6 +10,8 @@ const DoctorDetails = ({ sitecoreContext, rendering, route }) => {
         <Text tag="h2" className="display-4" field={sitecoreContext.route.fields.pageTitle} />
       )}
 
+      <img src={sitecoreContext.route.fields.headshot.value.src} />
+
       {/* {sitecoreContext.route.fields.headshot && sitecoreContext.route.fields.headshot.value && (
         <Image field={sitecoreContext.route.fields.headshot} />
       )} */}
