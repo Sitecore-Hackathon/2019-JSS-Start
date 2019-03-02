@@ -2,11 +2,11 @@
 
 **Category:** ```Best enhancement to JSS to change a JSS component rendering behavior based on user's session data```
 
-A healthcare provider network - **PatientCore** needs a JSS based application which helps patients to read  health care related different services articles, check doctor profiles, and making appointments.
+A healthcare provider network - **PatientCore** is a JSS based application which helps patients to read  health care related different services articles, check doctor profiles, and making appointments.
 
 We need to maximize personalization so that we can give better user experience to patients.
 
-* When a patient (or a user) visits Doctor's profile, and not making an appointment, then on any later page he visits (here on Homepage), we are showing a notification to the user by suggesting help in making appoinment.
+* When a patient (or a user) visits Doctor's profile without making an appointment, they'd be promptd with notification on any later page they visit (here on Homepage), we are showing a notification to the user by suggesting help in making appoinment.
 
 * Whenever organization launches new service, they want to highlight it more for users who actually visits those services pages. For example, if user visits Transplant service pages, then try to show transplant related content on Homepage page hero. We can do different personalization using this rule.
 
