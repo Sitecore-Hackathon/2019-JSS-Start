@@ -22,12 +22,6 @@ placeholders:
   hero:
   - componentName: HeroMain
     fields:
-      heading: Services
-      # to author content in YAML, use _multi-line values_ (prefixed with | + endline)
-      # as long as the same indent is preserved at the beginning of each line, no escaping
-      # is required at all in the value, making it easy to read
-      content: |
-          Services does not get listed in disconnected mode...
       title: PatientCore Services
       subtitle: Browse all the services we provide
       hero:
