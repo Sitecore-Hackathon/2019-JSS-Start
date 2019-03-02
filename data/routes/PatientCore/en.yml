@@ -20,16 +20,6 @@ fields:
 # root placeholder names are defined in the package.json config section (required for Sitecore deployment)
 placeholders:
   jss-main:
-  - componentName: HeroMain
-    fields:
-      title: Welcome to PatientCore
-      subtitle: Home to patient experience in digital world.
-      hero:
-        src: /data/media/img/heromain.jpg
-        alt: Welcome patient hero
-      link:
-        href: /services
-        text: Learn More
   - componentName: ContentBlock
     fields:
       heading: Welcome to PatientCore
@@ -37,10 +27,24 @@ placeholders:
       # as long as the same indent is preserved at the beginning of each line, no escaping
       # is required at all in the value, making it easy to read
       content: |
-          <p>Thanks for checking our PatientCore services.</p>
+          <p>Thanks for checking our PatientCore services. It's built with joint efforts by -</p>
 
-          <div class="alert alert-dark">
-            It's built with joint efforts by Yogesh Patel, and Muhammad Kalthoum.
+          <div style="width:45%; float:left; text-align:center;">
+            <a href="https://twitter.com/patelyogesh_in" target="_blank">
+              Yogesh Patel
+            </a>
+            <a href="https://twitter.com/patelyogesh_in" target="_blank">
+              <img src="https://pbs.twimg.com/profile_images/744013458677596160/ONACe03f_400x400.jpg" />
+            </a>
+          </div>
+
+          <div style="width:45%; float:left; text-align:center;">
+            <a href="https://twitter.com/@Moe_kal" target="_blank">
+              Muhammad Kalthoum
+            </a>
+            <a href="https://twitter.com/@Moe_kal" target="_blank">
+              <img src="https://pbs.twimg.com/profile_images/1080846431680892928/couy8K73_400x400.jpg" />
+            </a>
           </div>
 
 
