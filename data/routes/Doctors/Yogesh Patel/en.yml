@@ -20,6 +20,9 @@ fields:
   firstName: Yogesh
   lastName: Patel
   location: Boston, MA
+  headshot:
+      src: /data/media/img/Yogi.jpg
+      alt: Yogesh Patel
   services:
     - id: transplant
     - id: family-medicine

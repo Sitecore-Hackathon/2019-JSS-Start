@@ -18,6 +18,9 @@ export default function(manifest) {
         name: 'lastName', displayName:"Last Name", type: CommonFieldTypes.SingleLineText 
       },
       { 
+        name: 'headshot', displayName:"Headshot", type: CommonFieldTypes.Image
+      },
+      { 
         name: 'location', displayName:"Location", type: CommonFieldTypes.MultiLineText
       },
       { 

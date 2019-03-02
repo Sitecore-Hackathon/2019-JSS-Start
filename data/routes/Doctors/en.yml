@@ -28,8 +28,4 @@ placeholders:
       # is required at all in the value, making it easy to read
       content: |
           Below is the list of doctors. Select a doctor and make an appointment<br/>
-
-          <a href="/doctors/muhammad-kalthoum">Dr. Muhammad-Kalthoum, JSS</a><br/>
-          <a href="/doctors/yogesh-patel">Dr. Yogesh Patel, MD</a>
-
-
+  - componentName: Doctor-Listing

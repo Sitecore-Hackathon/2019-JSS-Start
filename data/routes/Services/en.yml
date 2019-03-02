@@ -28,7 +28,4 @@ placeholders:
       # is required at all in the value, making it easy to read
       content: |
           This is services landing page.. Below are all services we are providing<br/>
-          <a href="/services/trasplant">Transplant</a><br/>
-          <a href="/services/family-medicine">Family Medicine</a>
-
-
+  - componentName: Services-Listing

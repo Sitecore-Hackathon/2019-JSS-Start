@@ -1,0 +1,25 @@
+query ExpertsQuery($contextItem: String!) {
+  contextItem: item(path: $contextItem) {
+    children(requirePresentation: true) {
+    id
+    name
+    ... on Doctor {
+        pageTitle {
+            editable
+        }
+        location {
+            editable
+        }
+        services {
+            targetItems{
+                name
+            }
+        }
+        headshot {
+            editable
+        }
+    }
+    url(options: { disableLanguageEmbedding: true })
+  }
+ }
+}
