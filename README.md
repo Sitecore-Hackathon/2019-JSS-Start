@@ -57,6 +57,7 @@ Here we will see installation of this application on Sitecore 9.1 Initial Versio
 * Doctor Page - Shows Doctor details, and make an appointment
 * Make appointment Page - Confirmation of doctor's appointment
 
+
 ###We can achieve below personalizations:
 
 * When a patient (or a user) visits Doctor's profile, and not making an appointment, then on any later page he visits (here on Homepage), we are showing a notification to the user by suggesting help in making appoinment.

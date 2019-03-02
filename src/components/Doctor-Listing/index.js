@@ -25,13 +25,13 @@ const DoctorListing = (props) => {
             {contextItem.children.map((child) => (
               <div className="doctor-item">
               <a href={child.url}>
-                <div className="img-wrapper">
+                <div>
                  <Image
                     field={child.headshot}
                     editable={true}
-                    imageParams={{ mh: 100, mw:200, ar:true }}
-                    height="100"
-                    width="100"
+                    imageParams={{ mh: 120, mw:120, ar:true }}
+                    height="120"
+                    width="120"
                     className="headshot"
                    />
                 </div>
@@ -44,7 +44,7 @@ const DoctorListing = (props) => {
                 {/* Looping through all services the doctor is tagged with */}
                 {child.services && child.services.targetItems && 
                   child.services.targetItems.map((service, index) => (
-                    <span class="service-tag">{service.name}</span>
+                    <span class="tag-wrapper">{service.name}</span>
                 ))}
               </div>
             ))}

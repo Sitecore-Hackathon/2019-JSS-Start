@@ -20,14 +20,16 @@ fields:
 # root placeholder names are defined in the package.json config section (required for Sitecore deployment)
 placeholders:
   jss-main:
-  - componentName: HeroMain
+  - componentName: ContentBlock
     fields:
-      title: PatientCore Services
-      subtitle: Browse all the services we provide
-      hero:
-        src: /data/media/img/heromain.jpg
-        alt: Welcome patient hero
-      link:
-        href: /services
-        text: Learn More
+      heading: Our Services
+      # to author content in YAML, use _multi-line values_ (prefixed with | + endline)
+      # as long as the same indent is preserved at the beginning of each line, no escaping
+      # is required at all in the value, making it easy to read
+      content: |
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+          when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, 
+          but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets 
+          containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
   - componentName: Services-Listing

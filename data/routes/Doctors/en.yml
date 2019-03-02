@@ -20,13 +20,6 @@ fields:
 # root placeholder names are defined in the package.json config section (required for Sitecore deployment)
 placeholders:
   jss-main:
-  - componentName: HeroMain
-    fields:
-      title: Welcome to PatientCore
-      subtitle: Home to patient experience in digital world.
-      hero:
-        src: /data/media/img/heromain.jpg
-        alt: Welcome patient hero
   - componentName: ContentBlock
     fields:
       heading: Find a Doctor
