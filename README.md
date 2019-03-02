@@ -1,6 +1,6 @@
 ## Summary
 
-**Category:** *Best enhancement to JSS to change a JSS component rendering behavior based on user's session data*
+**Category:** ```*Best enhancement to JSS to change a JSS component rendering behavior based on user's session data*```
 
 A healthcare provider network - **PatientCore** needs a JSS based application which helps patients to read  health care related different services articles, check doctor profiles, and making appointments.
 
