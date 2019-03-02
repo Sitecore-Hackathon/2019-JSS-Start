@@ -67,7 +67,7 @@ Here we will see installation of this application on Sitecore 9.1 Initial Versio
 
 * **Services Landing** - Shows page hero, list of all services. We are using GraphQL to list down all services.
 
-![alt text](https://github.com/Sitecore-Hackathon/2019-JSS-Start/raw/master/screenshots/services.png "Services Landing page")
+![alt text](https://github.com/Sitecore-Hackathon/2019-JSS-Start/raw/master/screenshots/services.PNG "Services Landing page")
 
 * **Service Page** - Shows service page and its content.
 
