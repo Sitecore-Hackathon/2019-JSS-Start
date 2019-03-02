@@ -30,6 +30,12 @@ export default function addRoutesToManifest(manifest) {
         section: appTemplateSection,
         type: CommonFieldTypes.SingleLineText,
       },
+      {
+        name: 'pageDescription',
+        displayName: 'Page Description',
+        section: appTemplateSection,
+        type: CommonFieldTypes.RichText,
+      },
     ],
     insertOptions: ['App Route'],
   });
