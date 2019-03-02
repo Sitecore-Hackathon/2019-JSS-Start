@@ -30,7 +30,6 @@ placeholders:
       link:
         href: /services
         text: Learn More
-  - componentName: Chat
   - componentName: ContentBlock
     fields:
       heading: Welcome to Sitecore JSS

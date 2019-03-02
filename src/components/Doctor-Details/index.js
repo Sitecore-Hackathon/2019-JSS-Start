@@ -6,31 +6,30 @@ import { Placeholder, withSitecoreContext } from '@sitecore-jss/sitecore-jss-rea
 const DoctorDetails = ({ sitecoreContext, rendering, route }) => {
   return (
     <div>
-    <Text tag="h2" className="display-4" field={sitecoreContext.route.fields.pageTitle} />
-    
-        <Image
-              field={sitecoreContext.route.fields.headshot}
-              editable={true}
-              imageParams={{ mh: 200, mw:200, ar:true }}
-              height="200"
-              width="200"
-              className="headshot" />
+      {sitecoreContext.route.fields.pageTitle && (
+        <Text tag="h2" className="display-4" field={sitecoreContext.route.fields.pageTitle} />
+      )}
 
-        {sitecoreContext.route.fields.services && (
-          sitecoreContext.route.fields.services.map((service, index) => (
-            <a href="/" class="service-tag">{service.fields.pageTitle.value}</a>
-          ))
-        )}
+      {/* {sitecoreContext.route.fields.headshot && sitecoreContext.route.fields.headshot.value && (
+        <Image field={sitecoreContext.route.fields.headshot} />
+      )} */}
 
-        <Text field={sitecoreContext.route.fields.location} tag="h1" />
-    
-        <RichText className="contentDescription" field={sitecoreContext.route.fields.content} />
-
-        <button onclick="activateLasers()">
-          Make an appointment
-        </button>
-
-    </div>
+      {sitecoreContext.route.fields.services && (
+        sitecoreContext.route.fields.services.map((service, index) => (
+          <a href="/" class="service-tag">{service.fields.pageTitle.value}</a>
+        ))
+      )}
+      {sitecoreContext.route.fields.location && (
+        <Text field={sitecoreContext.route.fields.location} tag="h3" />
+      )}
+      {sitecoreContext.route.fields.pageDescription && (
+          <RichText className="contentDescription" field={sitecoreContext.route.fields.pageDescription} />
+      )}
+      <button onclick="activateLasers()">
+        Make an appointment
+      </button>
+  
+  </div>
 )};
 
 export default withSitecoreContext()(DoctorDetails);
