@@ -27,11 +27,10 @@ placeholders:
       # as long as the same indent is preserved at the beginning of each line, no escaping
       # is required at all in the value, making it easy to read
       content: |
-          <p>Thanks for checking our PatientCore services. It's built with joint efforts by -</p>
-
-          <div style="width:45%; margin: 10px; display: inline-block;">
+          <p>Thanks for checking our PatientCore services. It's built with joint efforts by -</p><br/>
+          <div style="width:45%; margin: 10px; display: inline-block; top:0;">
           <h3>Yogesh Patel</h3>
-          <img style="width: 50%; display: block;" src="https://pbs.twimg.com/profile_images/744013458677596160/ONACe03f_400x400.jpg" />
+          <img src="/-/jssmedia/patient-core/data/media/img/Yogi.jpg?mh=200&mw=200&ar=true" />
           <div>
             <a href="https://www.linkedin.com/in/yspatel" target="_blank">
               LinkedIn
@@ -42,13 +41,13 @@ placeholders:
             </div>
           </div>
 
-            <div style="width:45%; margin: 10px;display: inline-block;">
-            <h3>Muhammad Kalthoum</h3>
-             <img style="width: 50%; display: block;" src="https://pbs.twimg.com/profile_images/1080846431680892928/couy8K73_400x400.jpg" />
+          <div style="width:45%; margin: 10px; display: inline-block; top:0;">
+          <h3>Muhammad Kalthoum</h3>
+          <img src="/-/jssmedia/patient-core/data/media/img/Moe.png?mh=200&mw=200&ar=true" />
+          <div>
             <a href="https://www.linkedin.com/in/moekall" target="_blank">LinkedIn
             </a>
             <a href="https://twitter.com/@Moe_kal" target="_blank">Twitter
             </a>
+            </div>
           </div>
-
-
