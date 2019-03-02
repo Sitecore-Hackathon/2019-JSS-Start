@@ -18,15 +18,17 @@ const DoctorListing = (props) => {
             {contextItem.children.map((child) => (
               <div className="doctor-item">
               <a href={child.url}>
-                <Image
+                <div className="img-wrapper">
+                 <Image
                     field={child.headshot}
                     editable={true}
                     imageParams={{ mh: 100, mw:200, ar:true }}
                     height="100"
                     width="100"
                     className="headshot"
-                  />
-                </a>
+                   />
+                </div>
+               </a>
                 <a href={child.url}>
                   <Text field={child.pageTitle} editable="true" tag="h4" />
                 </a>

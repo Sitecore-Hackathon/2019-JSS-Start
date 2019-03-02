@@ -4,8 +4,8 @@ import { Placeholder, withSitecoreContext } from '@sitecore-jss/sitecore-jss-rea
 
 
 const DoctorDetails = ({ sitecoreContext, rendering, route }) => {
-  return (
-    <div>
+    return (
+      <div className="doctor-details>
       {sitecoreContext.route.fields.pageTitle && (
         <Text tag="h2" className="display-4" field={sitecoreContext.route.fields.pageTitle} />
       )}
