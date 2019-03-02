@@ -119,9 +119,10 @@ a[target='_blank']:after {
     margin: 20px 20px 20px 0;
     padding: 15px;
     display: inline-block;
+    border-radius: 20px;
 }
 .tag-wrapper-2{
-  background-color: #f1f1f1;
+  background-color: inherit;
   margin: 7px 7px 7px 0;
   padding: 7px;
   display: inline-block;
