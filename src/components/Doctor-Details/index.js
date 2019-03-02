@@ -2,6 +2,7 @@ import React from 'react';
 import { Text, Image, RichText } from '@sitecore-jss/sitecore-jss-react';
 import { Placeholder, withSitecoreContext } from '@sitecore-jss/sitecore-jss-react';
 
+// Showing doctor details from the context page (no datasource) so we will get the context from WithSitecoreContext()
 
 const DoctorDetails = ({ sitecoreContext, rendering, route }) => {
     return (
@@ -12,9 +13,7 @@ const DoctorDetails = ({ sitecoreContext, rendering, route }) => {
 
       <img src={sitecoreContext.route.fields.headshot.value.src} />
 
-      {/* {sitecoreContext.route.fields.headshot && sitecoreContext.route.fields.headshot.value && (
-        <Image field={sitecoreContext.route.fields.headshot} />
-      )} */}
+{/* Looping through all services tagged with the doctor */}
 
       {sitecoreContext.route.fields.services && (
         sitecoreContext.route.fields.services.map((service, index) => (
@@ -27,8 +26,8 @@ const DoctorDetails = ({ sitecoreContext, rendering, route }) => {
       {sitecoreContext.route.fields.pageDescription && (
           <RichText className="contentDescription" field={sitecoreContext.route.fields.pageDescription} />
       )}
-      
-      <button onclick="activateLasers()">
+
+      <button>
         <a href="/make-appointment">Make an appointment</a>
       </button>
   

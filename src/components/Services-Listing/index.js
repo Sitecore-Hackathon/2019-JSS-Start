@@ -5,6 +5,9 @@ import { Image } from '@sitecore-jss/sitecore-jss-react';
 import { loader as gqlLoader } from 'graphql.macro';
 import GraphQLData from '../../lib/GraphQLData';
 
+// We are fetching all children (services) inside Services landing page using GraphQL.
+// The GraphQL file is - service-listing.graphql inside the same folder.
+
 const ServicesQuery = gqlLoader('./service-listing.graphql');
 const ServicesListing = (props) => {
   const graphQLResult = props.connectedQuery;

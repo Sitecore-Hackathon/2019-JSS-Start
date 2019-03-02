@@ -1,7 +1,7 @@
 import React from 'react';
 import { Text, RichText } from '@sitecore-jss/sitecore-jss-react';
 
-
+// This comonent will be used to show personalized notification for suggesting making appointment, can be used for any other purpose as well.
 const Notification = (props) => (
   <div class="notification">
     <b><Text field={props.fields.heading} tag="p" /></b>

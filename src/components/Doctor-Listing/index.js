@@ -6,15 +6,22 @@ import { loader as gqlLoader } from 'graphql.macro';
 import GraphQLData from '../../lib/GraphQLData';
 
 const DoctorQuery = gqlLoader('./doctor-listing.graphql');
+
+// This component does not need datasource, will be placed on Doctors Landing page.
+// The GraphQL is required to fetch all children of the context item. We will also fetch item URL using GraphQL.
+// The GraphQL is mentioned in doctor-listing.graphql file in the same folder
+
 const DoctorListing = (props) => {
   const graphQLResult = props.connectedQuery;
 
+  // This contains results of the graphQL
   const {contextItem } = graphQLResult;
 
   return (
     <p>
      {contextItem && (
         <div>
+          {/* Looping through all children of context item */}
             {contextItem.children.map((child) => (
               <div className="doctor-item">
               <a href={child.url}>
@@ -33,8 +40,8 @@ const DoctorListing = (props) => {
                   <Text field={child.pageTitle} editable="true" tag="h4" />
                 </a>
                 <Text field={child.location} tag="p" />
-                {/* <Text field={child.services.targetItems.Path} tag="p" /> */}
 
+                {/* Looping through all services the doctor is tagged with */}
                 {child.services && child.services.targetItems && 
                   child.services.targetItems.map((service, index) => (
                     <span class="service-tag">{service.name}</span>
