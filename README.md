@@ -49,19 +49,24 @@ Here we will see installation of this application on Sitecore 9.1 Initial Versio
 
 ## Usage
 
-### Pages in the application
-* Home page - Shows a page hero, and content
-* Services Landing - Shows page hero, list of all services
-* Service Page - Shows service page and its content
-* Find a Foctor - Shows all doctors
-* Doctor Page - Shows Doctor details, and make an appointment
-* Make appointment Page - Confirmation of doctor's appointment
-
-
-###We can achieve below personalizations:
+### We can achieve below personalizations:
 
 * When a patient (or a user) visits Doctor's profile, and not making an appointment, then on any later page he visits (here on Homepage), we are showing a notification to the user by suggesting help in making appoinment.
 
 * Whenever organization launches new service, they want to highlight it more for users who actually visits those services pages. For example, if user visits Transplant service pages, then try to show transplant related content on Homepage page hero. We can do different personalization using this rule.
 
 * When no new services launched or no campaign going on, we can also do predictive personalization by choosing right content based on user persona (which based on which services the user shows interest more)
+
+
+### Explaining application using screenshots
+
+* Home page - Shows a page hero, and content
+
+![alt text](https://github.com/Sitecore-Hackathon/2019-JSS-Start/blob/master/screenshots/homepage.png "Homepage")
+
+
+* Services Landing - Shows page hero, list of all services
+* Service Page - Shows service page and its content
+* Find a Foctor - Shows all doctors
+* Doctor Page - Shows Doctor details, and make an appointment
+* Make appointment Page - Confirmation of doctor's appointment
