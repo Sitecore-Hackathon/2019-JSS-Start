@@ -19,7 +19,7 @@ fields:
 # Define the page layout starting at the root placeholder - in this case, 'jss-main'
 # root placeholder names are defined in the package.json config section (required for Sitecore deployment)
 placeholders:
-  hero:
+  jss-main:
   - componentName: HeroMain
     fields:
       title: PatientCore Services
@@ -27,5 +27,7 @@ placeholders:
       hero:
         src: /data/media/img/heromain.jpg
         alt: Welcome patient hero
-  jss-main:
+      link:
+        href: /services
+        text: Learn More
   - componentName: Services-Listing
