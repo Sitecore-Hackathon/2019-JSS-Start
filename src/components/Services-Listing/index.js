@@ -16,11 +16,13 @@ const ServicesListing = (props) => {
      {contextItem && (
         <div>
             {contextItem.children.map((child) => (
-              <div className="service-item">
-                <a href={child.url}>
-                  <Text field={child.pageTitle} editable="true" tag="h4" />
-                </a>
-              </div>
+                <div className="column">
+                    <div className="service-item">
+                        <a href={child.url}>
+                            <Text field={child.pageTitle} editable="true" tag="h4" />
+                        </a>
+                    </div>
+                </div>
             ))}
         </div>
      )} 
