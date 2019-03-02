@@ -17,7 +17,7 @@ const DoctorDetails = ({ sitecoreContext, rendering, route }) => {
         <div className="service-tag">
           {sitecoreContext.route.fields.services && (
             sitecoreContext.route.fields.services.map((service, index) => (
-              <a href="/" class="service-tag">{service.fields.pageTitle.value}</a>
+              <span className="tag-wrapper"><a href="/" class="service-tag">{service.fields.pageTitle.value}</a></span>
             ))
           )}
         </div>

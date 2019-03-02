@@ -2,11 +2,6 @@ a[target='_blank']:after {
   content: '\1F5D7'
 }
 
-/*
-  Hides Sitecore Experience Editor markup,
-  if you run the app in connected mode while the Sitecore cookies
-  are set to edit mode.
-*/
 .scChromeData, .scpm { display: none !important; }
 
 .notification {
@@ -113,4 +108,26 @@ a[target='_blank']:after {
 
 .contentDescription {
     margin: 20px 0;
+}
+
+/*Doctor Details*/
+
+.tag-wrapper {
+    background-color: #f1f1f1;
+    margin: 20px 20px 20px 0;
+    padding: 15px;
+    display: inline-block;
+}
+
+.tag-wrapper:hover {
+        background-color: lightslategray;
+}
+
+.tag-wrapper a {
+  text-decoration: none;
+  color: crimson;
+}
+
+.doctor-content {
+    margin-top: 20px;
 }
