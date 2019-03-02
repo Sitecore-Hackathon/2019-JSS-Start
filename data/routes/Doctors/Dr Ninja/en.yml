@@ -30,4 +30,12 @@ fields:
 placeholders:
   jss-main:
   - componentName: Doctor-Details
-    
+  - componentName: ContentBlock
+    fields:
+      heading: About Dr. Ninja
+      content: |
+        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget rutrum erat. Vestibulum rutrum volutpat ante, vitae viverra sapien convallis non. 
+         Cras finibus nulla eu feugiat tempor.
+         Fusce posuere, eros a vulputate rhoncus, lacus nisi accumsan velit, at venenatis tellus quam et ante. </p>
+         <p>Duis pulvinar tellus non tincidunt dapibus. Vestibulum enim tortor, laoreet non velit in, consequat pulvinar purus. Nunc eros mi, placerat sit amet tincidunt sit amet, pulvinar bibendum metus. Vivamus at ex molestie, tristique augue sit amet, dapibus felis.
+         In aliquet ligula at iaculis varius. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>   

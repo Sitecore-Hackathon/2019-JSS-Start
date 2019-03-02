@@ -13,6 +13,18 @@ const DoctorDetails = ({ sitecoreContext, rendering, route }) => {
 
         <img src={sitecoreContext.route.fields.headshot.value.src} />
 
+         <div className="doctor-content">
+                {sitecoreContext.route.fields.location && (
+                    <Text field={sitecoreContext.route.fields.location} tag="h3" />
+                )}
+                {sitecoreContext.route.fields.pageDescription && (
+                    <RichText className="contentDescription" field={sitecoreContext.route.fields.pageDescription} />
+                )}
+
+                <button className="btn btn-dark mt-2">
+                    <a href="/make-appointment">Make an appointment</a>
+                </button>
+         </div>
         {/* Looping through all services tagged with the doctor */}
         <div className="service-tag">
           {sitecoreContext.route.fields.services && (
@@ -21,19 +33,6 @@ const DoctorDetails = ({ sitecoreContext, rendering, route }) => {
             ))
           )}
         </div>
-
-       <div className="doctor-content">
-          {sitecoreContext.route.fields.location && (
-            <Text field={sitecoreContext.route.fields.location} tag="h3" />
-          )}
-          {sitecoreContext.route.fields.pageDescription && (
-              <RichText className="contentDescription" field={sitecoreContext.route.fields.pageDescription} />
-          )}
-
-        <button className="btn btn-dark mt-2">
-          <a href="/make-appointment">Make an appointment</a>
-        </button>
-      </div>
   </div>
 )};
 
