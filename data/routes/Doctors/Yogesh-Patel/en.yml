@@ -26,18 +26,8 @@ fields:
   services:
     - id: transplant
     - id: family-medicine
-
-
-
 # Define the page layout starting at the root placeholder - in this case, 'jss-main'
 # root placeholder names are defined in the package.json config section (required for Sitecore deployment)
 placeholders:
   jss-main:
-  - componentName: ContentBlock
-    fields:
-      heading: Dr. Yogesh Patel, MD
-      # to author content in YAML, use _multi-line values_ (prefixed with | + endline)
-      # as long as the same indent is preserved at the beginning of each line, no escaping
-      # is required at all in the value, making it easy to read
-      content: |
-          Dr. Yogesh Patel is Sitecore MVP 2014-2018. He is no more MVP this year.
+  - componentName: Doctor-Details
