@@ -130,6 +130,9 @@ a[target='_blank']:after {
 
 .doctor-content {
     margin-top: 20px;
+    display: inline-block;
+    margin: 0 20px 0 20px;
+    width: 40%;
 }
 
 .doctor-content button a {
