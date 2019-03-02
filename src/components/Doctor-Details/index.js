@@ -30,7 +30,7 @@ const DoctorDetails = ({ sitecoreContext, rendering, route }) => {
               <RichText className="contentDescription" field={sitecoreContext.route.fields.pageDescription} />
           )}
 
-        <button>
+        <button className="btn btn-dark mt-2">
           <a href="/make-appointment">Make an appointment</a>
         </button>
       </div>
