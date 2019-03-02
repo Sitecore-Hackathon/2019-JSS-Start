@@ -19,6 +19,7 @@ a[target='_blank']:after {
     float: left;
     width: 35%;
     padding: 0 10px;
+    margin: 20px 0;
 }
 
 /* Remove extra left and right margins, due to padding in columns */

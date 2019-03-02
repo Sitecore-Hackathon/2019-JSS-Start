@@ -16,7 +16,6 @@ const ServicesListing = (props) => {
      {contextItem && (
         <div>
             {contextItem.children.map((child) => (
-              <div className="row">
                 <div className="column">
                     <div className="service-item">
                         <a href={child.url}>
@@ -24,7 +23,6 @@ const ServicesListing = (props) => {
                         </a>
                     </div>
                 </div>
-              </div>
             ))}
         </div>
      )} 
