@@ -16,11 +16,5 @@ export default function(manifest) {
             { name: 'hero', type: CommonFieldTypes.Image },
             { name: 'link', type: CommonFieldTypes.GeneralLink },
         ],
-        /*
-        If the component implementation uses <Placeholder> or withPlaceholder to expose a placeholder,
-        register it here, or components added to that placeholder will not be returned by Sitecore:
-        placeholders: ['exposed-placeholder-name']
-        */
-        placeholders: ['page-hero'],
   });
 }

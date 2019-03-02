@@ -5,7 +5,7 @@ import { Placeholder, withSitecoreContext } from '@sitecore-jss/sitecore-jss-rea
 
 const DoctorDetails = ({ sitecoreContext, rendering, route }) => {
     return (
-      <div className="doctor-details>
+      <div className="doctor-details">
       {sitecoreContext.route.fields.pageTitle && (
         <Text tag="h2" className="display-4" field={sitecoreContext.route.fields.pageTitle} />
       )}
@@ -27,8 +27,9 @@ const DoctorDetails = ({ sitecoreContext, rendering, route }) => {
       {sitecoreContext.route.fields.pageDescription && (
           <RichText className="contentDescription" field={sitecoreContext.route.fields.pageDescription} />
       )}
+      
       <button onclick="activateLasers()">
-        Make an appointment
+        <a href="/make-appointment">Make an appointment</a>
       </button>
   
   </div>

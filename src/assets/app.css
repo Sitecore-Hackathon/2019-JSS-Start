@@ -11,7 +11,7 @@ a[target='_blank']:after {
 
 .notification {
   width:400px;
-  background-color:lightgrey;
+  background-color:rgb(150, 231, 227);
   position: fixed;
   bottom:0;
   right:0;
