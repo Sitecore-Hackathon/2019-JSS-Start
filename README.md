@@ -2,6 +2,9 @@
 
 **Category:** ```Best enhancement to JSS to change a JSS component rendering behavior based on user's session data```
 
+**Video:** https://www.youtube.com/watch?v=_7o1Szv_45g&feature=youtu.be
+
+**Application Overview:**
 A healthcare provider network - **PatientCore** is a JSS based application which helps patients to read  health care related different services articles, check doctor profiles, and making appointments.
 
 We need to maximize personalization so that we can give better user experience to patients.
